@@ -16,9 +16,9 @@
     </div>
 
     <div class="text-center">
+        <button class="btn btn-danger" onclick="location.reload()">Clear</button>
+        <button class="btn btn-primary" onclick="submit()"><span style="opacity: 0;">___</span> Find <span style="opacity: 0;">___</span></button>
         <a href="{{ url('absence') }}" class="btn btn-secondary">Back</a>
-        <button class="btn btn-primary" onclick="submit()">Find</button>
-        <button class="btn btn-danger" type="reset">Clear</button>
     </div>
 @endsection
 

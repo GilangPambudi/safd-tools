@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\AbsenceController;
-
+use App\Http\Controllers\OfpiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +22,13 @@ Route::get('/', function () {
 
 Route::get('/', [WelcomeController::class, 'index']);
 
-Route::get('/absence', [AbsenceController::class, 'index']);
-Route::get('/absences/generator', [AbsenceController::class, 'generator']);
-Route::get('/absences/finder', [AbsenceController::class, 'finder']);
+Route::group(['prefix' => 'absences'], function () {
+    Route::get('/', [AbsenceController::class, 'index']);
+    Route::get('/generator', [AbsenceController::class, 'generator']);
+    Route::get('/finder', [AbsenceController::class, 'finder']);
+});
+
+Route::group(['prefix' => 'ofpi'], function () {
+    Route::get('/', [OfpiController::class, 'index']);
+});
+

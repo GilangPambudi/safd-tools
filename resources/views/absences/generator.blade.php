@@ -85,7 +85,7 @@
 
 <div class="text-center">
     <button class="btn btn-primary mr-2" onclick="generateBBcode()">Generate</button>
-    <a href="{{ url('absence') }}" class="btn btn-danger mr-2">Back</a>
+    <a href="{{ url('absence') }}" class="btn btn-secondary mr-2">Back</a>
 </div>
 
 <div class="generatedBBcode mt-4 mb-4">
