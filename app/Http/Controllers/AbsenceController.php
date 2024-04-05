@@ -10,7 +10,7 @@ class AbsenceController extends Controller
     {
         $breadcrumb = (object) [
             'title' => 'Absence',
-            'list'  => ['Home', 'Absensi']
+            'list'  => ['Home', 'Absence']
         ];
 
         $activeMenu = 'absence';
@@ -22,7 +22,7 @@ class AbsenceController extends Controller
     {
         $breadcrumb = (object) [
             'title' => 'Absence Generator',
-            'list'  => ['Home', 'Absensi', 'Generator']
+            'list'  => ['Home', 'Absence', 'Generator']
         ];
 
         $activeMenu = 'absence';
@@ -34,7 +34,7 @@ class AbsenceController extends Controller
     {
         $breadcrumb = (object) [
             'title' => 'Absence Finder',
-            'list'  => ['Home', 'Absensi', 'Finder']
+            'list'  => ['Home', 'Absence', 'Finder']
         ];
 
         $activeMenu = 'absence';

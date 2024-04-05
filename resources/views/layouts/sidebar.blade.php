@@ -14,14 +14,6 @@
     <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
-                <a href="{{ url('/') }}" class="nav-link {{ ($activeMenu == 'home') ? 'active' : '' }}">
-                    <i class="nav-icon fas fa-home"></i>
-                    <p>Home</p>
-                </a>
-            </li>
-        </ul>
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-            <li class="nav-item">
                 <a href="{{ url('/absences') }}" class="nav-link {{ ($activeMenu == 'absence') ? 'active' : '' }}">
                     <i class="nav-icon fas fa-calendar"></i>
                     <p>Absence</p>
@@ -31,8 +23,16 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
                 <a href="{{ url('/ofpi') }}" class="nav-link {{ ($activeMenu == 'ofpi') ? 'active' : '' }}">
-                    <i class="nav-icon fas fa-book"></i>
+                    <i class="nav-icon fas fa-fire-extinguisher"></i>
                     <p>OFPI</p>
+                </a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <li class="nav-item">
+                <a href="{{ url('/hci') }}" class="nav-link {{ ($activeMenu == 'hci') ? 'active' : '' }}">
+                    <i class="nav-icon fas fa-syringe"></i>
+                    <p>HCI</p>
                 </a>
             </li>
         </ul>

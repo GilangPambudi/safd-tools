@@ -28,6 +28,13 @@
             </div>
         </div>
     </div>
+    <div class="info-box">
+        <span class="info-box-icon bg-info"><i class="far fa-calendar"></i></span>
+        <div class="info-box-content">
+          <span class="info-box-text">Absence Generator</span>
+        </div>
+        <!-- /.info-box-content -->
+    </div>
 @endsection
 
 @push('js')

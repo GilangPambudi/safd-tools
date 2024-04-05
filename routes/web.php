@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\AbsenceController;
 use App\Http\Controllers\OfpiController;
+use App\Http\Controllers\HciController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +33,6 @@ Route::group(['prefix' => 'ofpi'], function () {
     Route::get('/', [OfpiController::class, 'index']);
 });
 
+Route::group(['prefix' => 'hci'], function () {
+    Route::get('/', [HciController::class, 'index']);
+});

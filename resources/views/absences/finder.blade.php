@@ -15,10 +15,13 @@
         </div>
     </div>
 
+    <div class="text-center mb-1">
+        <button class="btn btn-primary" onclick="submit()"> Find </button>
+    </div>
+
     <div class="text-center">
         <button class="btn btn-danger" onclick="location.reload()">Clear</button>
-        <button class="btn btn-primary" onclick="submit()"><span style="opacity: 0;">___</span> Find <span style="opacity: 0;">___</span></button>
-        <a href="{{ url('absence') }}" class="btn btn-secondary">Back</a>
+        <a href="{{ url('absences') }}" class="btn btn-secondary">Back</a>
     </div>
 @endsection
 

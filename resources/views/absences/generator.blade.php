@@ -3,7 +3,6 @@
 @section('content')
 <div class="employeeInformation mt-4">
     <h4>A — Employee Information</h4>
-    <hr>
     <div class="form-row">
         <div class="form-group col-md-4">
             <label for="fullName">Full Name</label>
@@ -83,9 +82,13 @@
     </div>
 </div>
 
+
+<div class="text-center mb-1">
+    <button class="btn btn-primary" onclick="generateBBcode()">Generate</button>
+</div>
 <div class="text-center">
-    <button class="btn btn-primary mr-2" onclick="generateBBcode()">Generate</button>
-    <a href="{{ url('absence') }}" class="btn btn-secondary mr-2">Back</a>
+    <button class="btn btn-danger" onclick="location.reload()">Clear</button>
+    <a href="{{ url('absences') }}" class="btn btn-secondary mr-2">Back</a>
 </div>
 
 <div class="generatedBBcode mt-4 mb-4">
