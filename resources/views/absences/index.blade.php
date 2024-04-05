@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row justify-content-center align-items-center">
-        <div class="col-md-6">
+        <div class="col-lg-6 col-6">
             <div class="card" style="width: 100%;">
                 <div class="card-body text-center">
                     <h2>Absence Generator</h2>
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-6">
             <div class="card" style="width: 100%;">
                 <div class="card-body text-center">
                     <h2>Absence Finder</h2>
@@ -27,13 +27,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="info-box">
-        <span class="info-box-icon bg-info"><i class="far fa-calendar"></i></span>
-        <div class="info-box-content">
-          <span class="info-box-text">Absence Generator</span>
-        </div>
-        <!-- /.info-box-content -->
     </div>
 @endsection
 
