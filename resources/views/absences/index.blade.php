@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row justify-content-center align-items-center">
-        <div class="col-lg-6 col-6">
+        <div class="col-md-6">
             <div class="card" style="width: 100%;">
                 <div class="card-body text-center">
                     <h2>Absence Generator</h2>
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-6">
+        <div class="col-md-6">
             <div class="card" style="width: 100%;">
                 <div class="card-body text-center">
                     <h2>Absence Finder</h2>
